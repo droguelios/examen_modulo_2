@@ -1,0 +1,453 @@
+    body{
+        padding: 0px;
+        margin: 0px;
+        background-color: rgb(235, 235, 235) ;
+    }
+    /*contenido*/
+    .var-nav{
+        margin-top: 40px;
+        background-color: rgb(255, 255, 255);
+        display: grid;
+        font-size: 1.4rem;
+
+    }
+    .nav{
+    display: flex;
+    gap: 80px;
+    list-style: none;
+    justify-content: center;
+    }
+    .nav a{
+        text-decoration: none;
+        color: black;
+    }
+    .buttons {
+        padding: 0px;
+        margin: 0px;
+    }
+    .button1 { 
+        color: green;
+        background-color: white;
+        font-size: 1.4rem;
+        border: transparent;
+        cursor: pointer;
+    
+    }
+    .button2{
+        background-color: green;
+        color: white;
+        font-size: 1.4rem;
+        border: transparent;
+        cursor: pointer;
+
+    }
+    /*main*/
+    .titles{
+        background-color: rgb(235, 235, 235) ;
+        display: grid;
+        margin: 0px;
+        padding: 150px;
+        padding-left: 10rem;
+        margin: 5rem;
+        font-size: 3rem;
+        color: green;
+    }
+    h1{
+        color: gray;
+    }
+    .text{
+        font-size: 1.4rem;
+        color: gray;
+    }
+    .button3{
+        width: 9%;
+        height: 190%;
+        background-color: rgb(48, 223, 48);
+        color: rgb(255, 255, 255);
+        box-shadow: 20%;
+    }
+    /*section*/
+    .seccion{
+        text-align: center;
+        background-color: white;
+        padding: 0px;
+        margin: 80px;
+    }
+    .title2{
+        padding: 20px;
+        font-size: 2.6rem;
+        color: rgb(163, 157, 157);
+    }
+    .text2{
+    font-size: 1rem;
+    color: gray;
+    margin-top: -2rem;
+    display: grid;
+    }
+    /*picture*/
+    .cuadros{
+        margin: 100px;
+        padding: -8rem;
+        background-color: white;
+    }
+    .title3{
+        background-color: white;
+        color: gray;
+        font-size: 2rem;
+        text-align: center;
+        display: grid;
+    }
+    .title4{
+        margin-top: -20px;
+    }
+    .sub-title{
+        margin: -10px;
+    }
+    .icons img{
+        width: 15%;
+    }
+    .icons{
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        gap: 5rem;
+    }
+    .square{
+        margin: 20px;
+        padding: 20px;
+        border: 3px solid #000000; /* azul brillante */
+        box-shadow: 20px;
+    }
+
+    .text3{
+        display: grid;
+        font-size: 1rem;
+        text-align: center;
+    }
+    /*article*/
+    .imagen2 {
+        margin-top: 5rem;
+        padding-left: 20rem;
+    }
+    .article{
+        display: grid;
+        padding-left: 40rem;
+        margin-top: -22rem;
+        justify-content: center;
+    }
+    .title5{
+        font-size: 3.4rem
+    }
+    .text4{
+        margin-top: -2rem;
+        color: gray;
+    }
+    .button4{
+        width: 15%;
+        height: 170%;
+        color: white;
+        background-color: green;
+    }
+    /*estadistica*/
+    .estadistica{
+        display: grid;
+        margin-top: 15rem;
+        justify-content:left;
+        background-color: white;
+        padding-left: 14rem;
+        
+    }
+    .title6{
+        color: gray;
+        font-size: 3.6rem;
+    }
+    .text5{
+        margin-top: -50px;
+        font-size: 4rem;
+        padding-left: 2px;
+        color: green;
+    }
+    .text6{
+        margin-top: -30px;
+        padding: 10px;
+    }
+    .icons3{
+        padding-left: 45rem;
+        gap: 40px;
+        margin-top: -12rem;
+        justify-content: right;
+
+    }
+    /*pana*/
+    .resumen{
+        
+        display: grid;
+        justify-content: center;
+        margin-top: -27rem;
+        padding-left: 30rem;
+    }
+    .title7{
+        font-size: 3rem;
+    }
+    .button6{
+        width: 19%;
+        height: 170%;
+        background-color: green;
+        color: white ;
+    }
+    /*tesla*/
+    .tesla{
+        margin: 20rem;
+        color: green;
+        
+    }
+    .text8{
+        display: grid;
+        justify-content: center;
+        color: black;
+        margin-top: -20rem;
+        padding-left: 25rem;
+    }
+    .iconos4{
+        display: flex;
+        justify-content: center;
+        padding-left: 20rem;
+        gap: 20px;
+    }
+    .link {
+        text-decoration: none;
+        color: green;
+    }
+    .name{
+        color: green;
+    }
+    /*information*/
+    .info{
+        display: grid;
+        text-align: center;
+        margin-top: -4rem;
+        gap: 2rem;
+    }
+    .title8{
+        font-size: 3rem;
+    }
+    .text9{
+        margin-top: -2rem;
+        font-size: 1rem;
+        color: black;
+    }
+    .title9{
+        background-color: white;
+        font-size: 3rem
+    }
+    .button7{
+        height: 13%;
+        color: white;
+        background-color: green;
+    }
+    /*footer*/
+    .footer{
+        margin-top: 50px;
+        background-color: #263238;
+        display: flex;
+        color: white;
+        justify-content: center;
+        padding: 50px;
+        gap: 4rem;
+    }
+    .list{
+        display: grid;
+    }
+    .list a {
+        text-decoration: none;
+        list-style: none;
+        color: white;
+    }
+    .form{
+        width: 20%;
+        height: 20%;
+    }
+    /*imagenes logo*/
+    .imagen-logo {    
+        padding-left: -20px;
+    }
+
+    .imagen{
+        margin-top: -30rem;
+        padding-left: 60rem;
+    }
+    .gallery{
+        display: flex;
+        gap: 8rem;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .imagen3{
+        padding-left: 20rem;
+    }
+/*responsive*/
+/* Tablet */
+@media (max-width: 1024px) {
+    
+    h1,h2,h3,h4,h6 {
+        font-size: 1rem;
+    }
+
+    .cosas {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .imagen2 {
+        order: -1;
+        margin: 0 auto;
+    }
+
+    .text-content {
+        text-align: center;
+        padding: 0;
+    }
+
+    .laptop-section {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .imagen5 {
+        left: 0;
+    }
+
+    .articulo {
+        flex-direction: column;
+        text-align: center;
+        padding-top: 250px;
+    }
+
+    .imagen3 {
+        left: 50%;
+        transform: translateX(-50%);
+        top: -100px;
+    }
+
+    .text-about {
+        margin: 0 auto;
+    }
+
+    .footer {
+        grid-template-columns: 1fr 1fr;
+        text-align: center;
+    }
+
+    .footer-logo {
+        grid-column: 1 / -1;
+        text-align: center;
+    }
+}
+
+/* Móvil */
+@media (max-width: 768px) {
+    .fondo {
+        height: 500px;
+    }
+
+    .var-nav {
+        flex-wrap: wrap;
+        padding: 10px 5%;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .nav-auth {
+        margin-left: auto;
+    }
+
+    .title {
+        font-size: 2.2rem;
+    }
+
+    .text {
+        font-size: 1rem;
+    }
+
+    .buttons {
+        flex-wrap: wrap;
+    }
+
+    .title2 {
+        font-size: 2rem;
+    }
+
+    .title3 {
+        font-size: 1.5rem;
+    }
+
+    .title4 {
+        font-size: 2rem;
+    }
+
+    .text-information {
+        padding: 4rem 1.5rem;
+    }
+
+    .laptop-section {
+        padding: 4rem 1.5rem;
+    }
+
+    .imagen3 {
+        width: 300px;
+    }
+
+    .imagen4 {
+        width: 600px;
+    }
+
+    .imagen5 {
+        width: 120%;
+        left: -10%;
+    }
+
+    .articulo {
+        padding: 200px 2rem 3rem 2rem;
+        margin: 5rem 1rem;
+    }
+
+    .footer {
+        grid-template-columns: 1fr;
+        padding: 3rem 2rem;
+        text-align: center;
+    }
+
+    .footer-logo {
+        margin-bottom: 2rem;
+    }
+}
+
+/* Móvil pequeño */
+@media (max-width: 480px) {
+    .title {
+        font-size: 1.8rem;
+    }
+
+    .nav-auth {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .buttons button {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+
+    .imagen3 {
+        width: 250px;
+        top: -80px;
+    }
+
+    .articulo {
+        padding-top: 180px;
+    }
+}
